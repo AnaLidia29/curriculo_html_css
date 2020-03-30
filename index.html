@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Currículo</title>
+    <style>
+
+        /* Para Formatar a imagem circular*/
+        .circle {
+            background-color: #aaa;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            position: relative;
+            margin: 0 auto;
+            top:50px;          
+            
+        }
+        
+        .circle img {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Para Formatar texto Nome e Função*/
+        .nome{
+            font-size: 30px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            position: relative;          
+            top:100px;
+            left: 70px;
+           
+        }
+        .funcao{
+            font-size: 25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            position: relative;            
+            top:200px;
+            left: 80px;
+        }
+        .sobre{
+            font-size: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;            
+            position: relative;
+            padding: 10px;
+            margin: 20px;
+            top:50px;                     
+             
+            
+        }
+        .topico{
+            background-color: #aaa;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            position: relative;
+           
+        }
+
+        .topico img{
+            position: absolute;           
+            width: 70%;
+            margin: 6px 2px 2px 8px;
+        }
+        li {
+           
+            margin: 10px;
+            border: 5px ;
+            float: left;
+            overflow: hidden;
+            margin: 15px;
+            font-size: 20px;
+            font-weight:bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:grey;
+            }
+
+
+
+    </style>
+
+</head>
+<body>
+    <!-- Conteúdo -->
+
+    <!--Div principal-->
+    <div style="width:960px; height: 1120px; border:1px solid burlywood;margin:0 auto">
+        <!--div esquerda-->
+        <div style="width: 360px; height:1120px;float: left;">
+            <div style="width: 360px; height:480px;float: left;background-color:#295872">
+                <!--foto-->
+                <div class="circle">
+                    <img src="foto.jpg" alt = "foto">
+                </div>
+                <!--Nome-->
+                <div class = "nome">
+                    <b>Ana Lidia da Silva</b>
+                </div>  
+                <div class = "funcao">
+                    <p>Analista de Sistemas</p>
+                </div>              
+            </div>
+            <div style="width: 360px; height:400px;float: left;background-color:#357599">
+                <div class = "sobre">
+                   <h3>Sobre:</h3>
+                   <p align="justify">Sou analista de sistemas de uma empresa do ramo industrial. 
+                       Participo de projetos auxiliando nos processos e definição de novos 
+                    softwares.
+                    </p>
+                </div>
+            </div>
+            <div style="width: 360px; height:240px;float: left;background-color:#4292BF">
+                <div class=sobre>
+                    <p>
+                        <b>Telefone:</b> 48 999999999 <br><br>
+                        <b>E-mail:</b> analidia@gmail.com
+                    </p>
+                </div>               
+            </div>
+        </div>
+        <!--div direita-->
+        <div style="width: 600px; height:1120px;float: right;background-color:rgb(186, 214, 231);">
+            <div>   
+                <!--para deixar espaço-->
+                <div style="width: 400px; height:50px;float: right;">
+                </div>
+                <div style="width: 200px; height:50px;float: left;">
+                </div>                
+                <!--dividi em 3 partes para layout com os icons-->
+                <div style="width: 200px; height:50px;float: left;">
+                    <p style="margin: 10px;font-size: 25px;font-weight: bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:#295872;">Escolaridade</p>
+                </div>
+
+                <div style="width: 100px; height:50px;float: right;">
+                    <div class="topico" >                  
+                        <img src="https://img.icons8.com/ios-glyphs/120/000000/graduation-cap--v1.png" alt = "chapeu"/>         
+                    </div>  
+                </div>
+
+                <div style="width: 300px; height:50px;float: right;">
+                    <div style="width: 280px; height: 10px;background-color:#aaa; margin: 20px;">
+                    </div>
+                </div>
+                <!--Escolaridade-->
+
+                <div style="width: 200px; height:50px;float: left;">
+                    <p style="margin: 15px;font-size: 20px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:grey;">
+                        Univali Itajaí <br>
+                        <p style="margin:15px;font-size: 15px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: black;">2014 - 2020
+                        </p>
+                    </p>
+
+                </div>
+
+                <div style="width: 400px; height:50px;float: right;">
+                    <p style="margin:15px;font-size: 15px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: black;">
+                        Ensino Superior (Em andamento):<br> Curso de Ciência da Computação.
+                    </p>
+                     
+                </div>
+                <!--para deixar espaço-->
+                <div style="width: 400px; height:50px;float: right;">
+                </div>
+                <div style="width: 200px; height:50px;float: left;">
+                </div>  
+
+                <!--icon2-->
+                <div style="width: 200px; height:50px;float: left;">
+                    <p style="margin: 10px;font-size: 25px;font-weight: bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:#295872;">
+                        Experiência
+                    </p>
+                </div>
+
+                <div style="width: 100px; height:50px;float: right;">
+                    <div class="topico" >                  
+                        <img src="https://img.icons8.com/material/96/000000/settings-3--v2.png" alt = "engrenagem"/>         
+                    </div>  
+                </div>
+
+                <div style="width: 300px; height:50px;float: right;">
+                    <div style="width: 280px; height: 10px;background-color:#aaa; margin: 20px;">
+                    </div>
+                </div>
+
+                <!--Experiencias-->
+
+                <div style="width: 200px; height:50px;float: left;">
+                    <p style="margin: 15px;font-size: 20px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:grey;">
+                        Portobello <br>
+                        <p style="margin:15px;font-size: 15px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: black;">2018 - 
+                        </p>
+                    </p>
+
+                </div>
+
+                <div style="width: 400px; height:50px;float: right;">
+                    <p style="margin:15px;font-size: 15px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: black;">
+                        Atualmente trabalho como Analista de Sistemas.
+                    </p>
+                     
+                </div>
+
+                <!--para deixar espaço-->
+                <div style="width: 400px; height:50px;float: right;">
+                </div>
+                <div style="width: 200px; height:50px;float: left;">
+                </div>  
+
+                <!--icon3-->
+                <div style="width: 200px; height:50px;float: left;">
+                    <p style="margin: 10px;font-size: 25px;font-weight: bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:#295872;">
+                        Conhecimento
+                    </p>
+                </div>
+
+                <div style="width: 100px; height:50px;float: right;">
+                    <div class="topico" >                  
+                        <img src="https://img.icons8.com/ios-filled/100/000000/paint.png" alt ="pincel"/>         
+                    </div>  
+                </div>
+
+                <div style="width: 300px; height:50px;float: right;">
+                    <div style="width: 280px; height: 10px;background-color:#aaa; margin: 20px;">
+                    </div>
+                </div>
+
+                <!--Conhecimento-->
+
+                <div style="width: 600px; height:320px; clear: both;">
+                    <p style="margin: 15px;font-size: 20px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:grey;">
+                        PL/SQL <br>
+                        <p style="margin:15px;font-size: 15px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: black;">*** 
+                        </p>
+                    </p>
+                    <p style="margin: 15px;font-size: 20px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:grey;">
+                        ERP - Oracle <br>
+                        <p style="margin:15px;font-size: 15px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: black;">*** 
+                        </p>
+                    </p>
+                    <p style="margin: 15px;font-size: 20px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:grey;">
+                        APEX - Oracle <br>
+                        <p style="margin:15px;font-size: 15px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: black;">*** 
+                        </p>
+                    </p>
+                    <p style="margin: 15px;font-size: 20px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:grey;">
+                        Gestão de Projetos <br>
+                        <p style="margin:15px;font-size: 15px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: black;">*** 
+                        </p>
+                    </p>
+                    <p style="margin: 15px;font-size: 20px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:grey;">
+                        Metodologia Ágil (Framework Scrum) <br>
+                        <p style="margin:15px;font-size: 15px;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: black;">*** 
+                        </p>
+                    </p>
+
+                </div> 
+                <!--para deixar espaço-->
+                <div style="width: 400px; height:50px;float: right;">
+                </div>
+                <div style="width: 200px; height:50px;float: left;">
+                </div>  
+
+                <!--icon4-->
+                <div style="width: 200px; height:50px;float: left;">
+                    <p style="margin: 10px;font-size: 25px;font-weight: bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:#295872;">
+                        Interesse
+                    </p>
+                </div>
+
+                <div style="width: 100px; height:50px;float: right;">
+                    <div class="topico" >                  
+                        <img src="https://img.icons8.com/ios-filled/100/000000/hearts.png"alt = "coração"/>        
+                    </div>  
+                </div>
+
+                <div style="width: 300px; height:50px;float: right;">
+                    <div style="width: 280px; height: 10px;background-color:#aaa; margin: 20px;">
+                    </div>
+                </div>
+
+                <!--Interesse-->
+
+                <div style="width: 600px; height:320px; clear: both;">
+                    <p>
+                        <ul>
+                            <li>PL/SQL</li>
+                            <li>Projetos de Software</li>
+                            <li>IOT</li>
+                            <li>IA</li>
+                          </ul>
+
+                    </p>
+                </div>                
+            </div>
+        </div>
+    </div>
+<!--<div>Ícones feitos por 
+                    <a href="https://www.flaticon.com/br/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> 
+                    from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>-->
+
+</body>
+</html>
